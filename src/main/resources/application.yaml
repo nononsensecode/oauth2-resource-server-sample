@@ -1,0 +1,10 @@
+server:
+  port: 10001
+
+application:
+  timezone: Asia/Kolkata
+  neededScope: heroes
+
+oauth2:
+  jwks:
+    url: "http://localhost:9000/auth/realms/heroes/protocol/openid-connect/certs"
